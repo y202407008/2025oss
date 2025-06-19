@@ -2,5 +2,6 @@
 
 int sub(int x, int y)
 {
-	return 0;
+	printf("x[ %d ]와 y[ %d ] 값을 뺍니다.\n");
+	return x - y;
 }
