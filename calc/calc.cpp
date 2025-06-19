@@ -16,10 +16,16 @@ int main()
 
 	std::cout << "첫번째 수를 입력하세요 : ";
 	std::cin >> x;
+
+	if (-999 == x)
+	{
+		printf("프로그램을 종료합니다.\n");
+		break;
+	}
 	std::cout << "두번째 수를 입력하세요 : ";
 	std::cin >> y;
 
 	printf("입력 x[ %d ] y[ %d ]\n", x, y);
 	printf("add[ %d ] sub[ %d ] mul[ %d ] dive[ %d ] mod[ %d ]\n", 10, 6, 16, 4, 0);
-	//add(x, y), sub(x, y), mul(x, y), dive(x, y), mod(x, y));
+		//add(x, y), sub(x, y), mul(x, y), dive(x, y), mod(x, y));
 }
